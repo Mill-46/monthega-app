@@ -4,10 +4,7 @@ function PageAbout() {
   return (
     <div className="lg:flex lg:flex-row lg:p-10 lg:gap-10 lg:mt-0 md:flex md:flex-col md:mt-10  sm:flex sm:flex-col sm:mt-10">
       <div className="lg:w-1/2 lg:flex lg:justify-center md:flex md:justify-center  sm:flex sm:justify-center">
-        <img
-          className="img-about object-cover lg:w-[32rem] lg:h-[35rem] md:w-[42rem] md:h-[28rem] sm:w-[22rem] sm:h-[28rem]"
-          alt=""
-        />
+        <img className="img-about object-cover lg:w-[32rem] lg:h-[35rem] md:w-[42rem] md:h-[28rem] sm:w-[22rem] sm:h-[28rem]" />
       </div>
       <div className="lg:w-1/2 lg:flex lg:flex-col lg:gap-5 lg:mt-0 md:flex md:flex-col md:gap-5 md:mt-5 md:items-center md:justify-center sm:flex sm:flex-col sm:gap-5 sm:mt-5 sm:items-center sm:justify-center">
         <pre className="text-white whitespace-pre-wrap text-base leading-normal text-justify lg:w-[37rem] md:w-[42rem] sm:w-[30rem]">
