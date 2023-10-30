@@ -11,9 +11,9 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/monthega-app" element={<HomePage />} />
-        <Route path="/monthega-app/*" element={<NotFoundPage />} />
-        <Route path="/monthega-app/search" element={<MonthegaSearch />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/*" element={<NotFoundPage />} />
+        <Route path="/search" element={<MonthegaSearch />} />
         <Route path="/detail/:id" element={<DetailPage />} />
         <Route path="/category/:food" element={<ListCategories />} />
         <Route path="/country/:flag" element={<ListCountry />} />
