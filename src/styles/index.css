@@ -23,6 +23,8 @@
 
 .img-about {
   background-image: url(/public/images/about.avif);
+  outline: none;
+  border: none;
 }
 
 .navbar-home li {

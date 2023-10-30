@@ -11,12 +11,12 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/*" element={<NotFoundPage />} />
         <Route path="/search" element={<MonthegaSearch />} />
         <Route path="/detail/:id" element={<DetailPage />} />
         <Route path="/category/:food" element={<ListCategories />} />
         <Route path="/country/:flag" element={<ListCountry />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/*" element={<NotFoundPage />} />
       </Routes>
     </>
   );
