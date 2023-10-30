@@ -35,7 +35,7 @@ function ListCountry() {
     <div className="h-full min-h-screen bg-blacks sm:w-[425px] md:w-[768px] lg:w-[1440px]">
       <div className="flex flex-col py-10 items-center">
         <h2 className="text-2xl font-bold bg-darkYellows w-72 text-center p-2 rounded-lg text-white uppercase">
-          {location.pathname.split("/MONTHEGA-APP/country/")}
+          {location.pathname.split("/monthega-app/country/")}
         </h2>
       </div>
       {loading ? (
