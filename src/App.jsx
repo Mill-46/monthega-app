@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, useNavigate } from "react-router-dom"; // Import useNavigate
+import { Route, Routes } from "react-router-dom"; // Import useNavigate
 import HomePage from "./pages/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
 import DetailPage from "./pages/DetailPage";
@@ -8,12 +8,11 @@ import ListCountry from "./components/widget/ListCountry";
 import MonthegaSearch from "./components/page/MonthegaSearch";
 
 function App() {
-  const navigate = useNavigate();
 
   return (
     <>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/monthega-app/" element={<HomePage />} />
         <Route path="/*" element={<NotFoundPage />} />
         <Route path="/search" element={<MonthegaSearch />} />
         <Route path="/detail/:id" element={<DetailPage />} />
