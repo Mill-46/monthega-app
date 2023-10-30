@@ -6,7 +6,6 @@ function PageAbout() {
       <div className="lg:w-1/2 lg:flex lg:justify-center md:flex md:justify-center  sm:flex sm:justify-center">
         <img
           className="img-about object-cover lg:w-[32rem] lg:h-[35rem] md:w-[42rem] md:h-[28rem] sm:w-[22rem] sm:h-[28rem]"
-          src="/public/images/about.avif"
           alt=""
         />
       </div>
