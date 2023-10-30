@@ -8,7 +8,6 @@ import ListCountry from "./components/widget/ListCountry";
 import MonthegaSearch from "./components/page/MonthegaSearch";
 
 function App() {
-
   return (
     <>
       <Routes>
