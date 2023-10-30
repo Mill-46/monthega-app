@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+.bg-home {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/home.avif);
+}
+
+.bg-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/images/background.avif);
+}
+
+.navbar-home li {
+  @apply hover:text-yellows transition duration-300;
+}
+
+header.sticky {
+  @apply backdrop-blur-sm bg-greys/70 fixed;
+}
